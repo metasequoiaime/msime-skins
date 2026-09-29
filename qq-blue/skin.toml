@@ -1,0 +1,36 @@
+schema_version = 1
+
+id = "qq-blue"
+name = "QQ 经典蓝"
+version = "1.0.0"
+description = "腾讯 QQ 配色：亮蓝光标与序号，深蓝选中块"
+base = "fluent"
+
+[supports]
+layouts = ["horizontal", "vertical"]
+themes = ["dark", "light"]
+
+[candidate_window]
+min_width_dip = 0
+
+[candidate.dark]
+accent = "#12B7F5"
+selected = "#0052D9"
+hover = "rgba(18,161,245,.24)"
+surface = "#1F2226"
+border = "rgba(18,161,245,.35)"
+text = "#E9E8E8"
+number = "#B0E3FB"
+translation = "#FFE399"
+show_selected_bar = false
+
+[candidate.light]
+accent = "#0091EA"
+selected = "#D6EDFD"
+hover = "rgba(0,145,234,.12)"
+surface = "#FFFFFF"
+border = "#DCE6F0"
+text = "#1A1A1A"
+number = "#0052D9"
+translation = "#F97D0A"
+show_selected_bar = false

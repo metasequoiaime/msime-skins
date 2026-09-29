@@ -1,0 +1,36 @@
+schema_version = 1
+
+id = "sogou"
+name = "搜狗经典"
+version = "1.0.0"
+description = "搜狗经典配色：白底、蓝色候选、橙红高亮、红色光标"
+base = "fluent"
+
+[supports]
+layouts = ["horizontal", "vertical"]
+themes = ["dark", "light"]
+
+[candidate_window]
+min_width_dip = 0
+
+[candidate.dark]
+accent = "#FF6A00"
+selected = "rgba(232,64,10,.28)"
+hover = "rgba(232,64,10,.20)"
+surface = "#1A1E24"
+border = "rgba(232,64,10,.35)"
+text = "#7FA5FF"
+number = "#7FA5FF"
+translation = "#9FB0C4"
+show_selected_bar = false
+
+[candidate.light]
+accent = "#E8400A"
+selected = "#FDDCCB"
+hover = "rgba(232,64,10,.10)"
+surface = "#FFFFFF"
+border = "#C5CEDA"
+text = "#1235CC"
+number = "#1235CC"
+translation = "#4A5A70"
+show_selected_bar = false
